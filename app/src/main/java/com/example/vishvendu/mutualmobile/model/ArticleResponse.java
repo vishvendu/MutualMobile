@@ -29,7 +29,7 @@ public class ArticleResponse {
     private String hOSTNAME;
     @SerializedName("TIMESTAMP")
     @Expose
-    private int tIMESTAMP;
+    private Long tIMESTAMP;
 
     public int getID() {
         return iD;
@@ -79,11 +79,11 @@ public class ArticleResponse {
         this.hOSTNAME = hOSTNAME;
     }
 
-    public int getTIMESTAMP() {
+    public Long getTIMESTAMP() {
         return tIMESTAMP;
     }
 
-    public void setTIMESTAMP(int tIMESTAMP) {
+    public void setTIMESTAMP(Long tIMESTAMP) {
         this.tIMESTAMP = tIMESTAMP;
     }
 
